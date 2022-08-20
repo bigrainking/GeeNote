@@ -1,5 +1,15 @@
 
 
+[toc]
+
+> 创建我们自己的实例 ListenAndServe的第二个参数Handler
+>
+> 拦截所有HTTP请求 填入路由表
+>
+> 实例创建路由表 key=pattern+method value=逻辑处理
+>
+> Get/POST()用户绑定pattern与逻辑处理函数
+
 # 一、基础介绍
 
 ## 1 Go原生代码实现HTTP服务
