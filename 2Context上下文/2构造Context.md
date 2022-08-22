@@ -2,8 +2,8 @@
 
 [toc]
 
->1. 将Router独立出来，方便之后添加内容
->2. Context封装Request Response，添加会话各个属性的快速访问
+>1. 将**Router**独立出来，方便之后添加内容
+>2. **Context**封装Request Response，添加会话各个属性的快速访问
 
 # Main.go
 
