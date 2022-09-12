@@ -1,5 +1,7 @@
 
 
+[toc]
+
 
 
 
@@ -195,9 +197,9 @@ func parsePattern(pattern string) (parts []string) {
 
 # 三、Context的变化
 
-Context作为上下文新增了param记录 请求路径与前缀树路径中的模糊匹配
+Context作为上下文新增了**param**记录 请求路径与前缀树路径中的模糊匹配
 
-如 /p/:lang /p/hello {lang:"/hell0"}
+如 `/p/:lang`匹配  `/p/hello` 则Params = {lang:"/hello"}
 
 ```go
 // Context对象
